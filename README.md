@@ -7,6 +7,9 @@ A command line wrapper to tail multiple files over ssh.
 #### Why
 Often, I need to monitor logs of multiple instances of a same service, but SSH'ing and then running tail command was tedious but I still wanted to be able to use my `~/.ssh/config`.
 
+#### How to get it
+`curl -sf https://gobinaries.com/sitaramshelke/stail | sh`
+
 #### How to use it
 `stail ssh-host-1,file-path-1 ssh-host-2,filepath`
 
